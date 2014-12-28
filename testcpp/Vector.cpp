@@ -13,7 +13,7 @@ Vector::Vector(int s)
 }
 
 
-double& Vector::operator[](<#int i#>) {
+double& Vector::operator[](int i) {
     return elem[i];
 }
  
